@@ -42,6 +42,6 @@ main() {
 
 # EXECUTION
 
-[[ $# -ne 2 ]] && echo "How to use: $0 site.com wordlist.txt" && exit 0
+[[ $# -ne 2 ]] && echo "How to use: $0 website.com wordlist.txt" && exit 0
 
 main "$@"
